@@ -103,10 +103,10 @@ npm start
 > ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 > 
 >   ## ``Support Group``
-   
-
-- [` Group1`](https://chat.whatsapp.com/LNYsNPdpLy130W7bqMtXeW)
-- [`Group2`](https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk)
+ [![WHATSAPP](https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=red)](https://chat.whatsapp.com/LNYsNPdpLy130W7bqMtXeW) 
+-----  
+[![WHATSAPP](https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk) 
+-----
 
 global.Owner = ["+254795363396"];
 global.OwnerNumber = ["254795363396"];
