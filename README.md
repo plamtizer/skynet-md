@@ -10,7 +10,7 @@
 <h1 align="center">🔥 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝐭𝐨 𝐬𝐤𝐲𝐧𝐞𝐭_𝐦𝐝-𝐯𝟏🔥</h1>
 <br>
 <div align="center">
-<img src="https://telegra.ph/file/7f1754e59ca4c7844f74c.mp4">
+<img src="">
 </div>
 <br>
 </p>
@@ -19,6 +19,11 @@
 <div>
 </p>
 </p>
+  <h1 align="center"> 𝐬𝐤𝐲𝐧𝐞𝐭 BoT (Beta)</h1>
+
+<p align="center"> 
+  Hi there, I'm "skynet_md-v1," a versatile WhatsApp bot created and reprogrammed by mwas to perform a wide array of functions based on WhatsApp Multi-Device (MD) Support.
+  
 <h4><font size="2"><a href="https://wa.me/254795363396yohyoh+ˢᵏʸⁿᵉᵗ"><font color="green">𝕤𝕜𝕪𝕟𝕖𝕥 𝕞𝕕 𝕓𝕠𝕥</font>
 </h4>
 <h4><font size="2"><a href="https://www.instagram.com/bri_an1380?igsh=MXY3Nm16Z29sbmk1dA=="><font color="green">FOLLOW INSTAGRAM</font>
@@ -35,7 +40,7 @@
 </p>
 - My Name 𝐬𝐤𝐲𝐧𝐞𝐭_𝐦𝐝-𝐯𝟏
 </p>
-- Hello All 👋
+- Hello All  🤖
 <br>
 </p>
 <h2 align="center">🔥 SPOTIFY 🔥</h2>
