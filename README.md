@@ -3,7 +3,7 @@
 <h1 align="center">🔥 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 ᴛᴏ sᴋʏɴᴇᴛ_ᴍᴅ-ᴠ1🔥</h1>
 <br>
 <div align="center">
-<img src="https://i.imgur.com/jx17oHT.gif">
+<img src="https://telegra.ph/file/24f4704acf75cb5ec37d0.mp4">
 </div>
 <br>
 </p>
