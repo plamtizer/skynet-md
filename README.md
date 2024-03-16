@@ -56,10 +56,6 @@
   <a href="https://github.com/Mwas284/skynet-md">
     <img src="https://img.shields.io/badge/FORK skynet md-h?color=red&style=for-the-badge&logo=stackshare" />
     
------
-## ``Support Group``
-[![WHATSAPP](https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=purple)](https://chat.whatsapp.com/LNYsNPdpLy130W7bqMtXeW) 
------
 
 <h2 align="center"> 🍁  Run Repl for Multi Session QR  🍁 </h2>
 
@@ -77,8 +73,6 @@
 
 ## Deployment Methods
 
-
-
 ## Heroku Buildpack
 ```bash
 heroku/nodejs
@@ -86,11 +80,8 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 Deploy
- 
-<p align="center" >
-    <a href="https://heroku.com/deploy?template=https://github.com/Mwas284/skynet-md">
-    <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
-    </a>   
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Samue-l1/Classic-v3-BUG/)
 
 ## For Termux
 ```ts
@@ -104,6 +95,19 @@ yarn
 npm install
 npm start
 ```
+## `For VPS`
+```bash
+apt install nodejs 
+apt install git 
+apt apt install ffmpeg 
+apt apt install libwebp 
+apt apt install imagrmagick
+apt install bash
+git clone https://github.com/Samue-l1/Classic-v3-BUG 
+cd Classic-v3-BUG
+npm start
+```
+
 
 > ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 > 
@@ -127,3 +131,4 @@ global.BotName = "𝐒𝐤𝐲𝐧𝐞𝐭𝐦𝐝";
 
 </div>
 </body>
+ ⧉ 𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐓𝐇𝐄 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ⧉
