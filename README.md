@@ -49,6 +49,24 @@
 </p>
 <p align="center"><a href="https://github.com/Mwas284/skynet-md"><img src=""></a></p>
 </div>
+  
+  <h2 align="center"> 🔰 Tap Here To Fork 🔰 </h2>
+
+<h2 align="center">
+  <a href="https://github.com/Mwas284/skynet-md">
+    <img src="https://img.shields.io/badge/FORK skynet md-h?color=red&style=for-the-badge&logo=stackshare" />
+
+<h2 align="center"> 🍁  Run Repl for Multi Session QR  🍁 </h2>
+
+<h2 align="center">
+  <a href="https://replit.com/@BrianMwangi9/Pairing-skynet-v2#index.js">
+    <img src="https://repl.it/badge/github/quiec/whatsasena" />
+  </a>
+
+    ## Usage
+
+1. You will get qr code when you run the above replit. After scanning qr code you will get `creds.json` file in your personal chat, upload it to the `skynet-SESSION` folder in your project directory. And done! you can now deploy your bot:
+<h2 align="center"> ⚙️  Edit Config File  ⚙️ </h2>
 
 # Instalasi
 ## Heroku Buildpack
@@ -71,6 +89,11 @@ npm start
 ```
 
 > ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+global.Owner = ["+254795363396"];
+global.OwnerNumber = ["254795363396"];
+global.ownertag = ["254795363396"];
+global.OwnerName = "mwas";
+global.BotName = "𝐒𝐤𝐲𝐧𝐞𝐭𝐦𝐝";
 
 # INSTALL
 * [Node.js](https://nodejs.org/en/)
