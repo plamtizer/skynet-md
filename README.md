@@ -10,7 +10,7 @@
 <h1 align="center">🔥 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝐭𝐨 𝐬𝐤𝐲𝐧𝐞𝐭_𝐦𝐝-𝐯𝟏🔥</h1>
 <br>
 <div align="center">
-<img src="https://i.imgur.com/jx17oHT.gif">
+<img src="https://telegra.ph/file/7f1754e59ca4c7844f74c.mp4">
 </div>
 <br>
 </p>
@@ -19,7 +19,7 @@
 <div>
 </p>
 </p>
-<h4><font size="2"><a href="https://wa.me/254795363396yohyoh+ˢᵏʸⁿᵉᵗ"><font color="blue">wa//me</font>
+<h4><font size="2"><a href="https://wa.me/254795363396yohyoh+ˢᵏʸⁿᵉᵗ"><font color="green">𝕤𝕜𝕪𝕟𝕖𝕥 𝕞𝕕 𝕓𝕠𝕥</font>
 </h4>
 <h4><font size="2"><a href="https://www.instagram.com/bri_an1380?igsh=MXY3Nm16Z29sbmk1dA=="><font color="green">FOLLOW INSTAGRAM</font>
 </h4>
