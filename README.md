@@ -55,6 +55,10 @@
 <h2 align="center">
   <a href="https://github.com/Mwas284/skynet-md">
     <img src="https://img.shields.io/badge/FORK skynet md-h?color=red&style=for-the-badge&logo=stackshare" />
+-------------------------------------------------------------------------------------
+## ``Support Group``
+[![WHATSAPP](https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=purple)](https://chat.whatsapp.com/LNYsNPdpLy130W7bqMtXeW) 
+---------------------------------------------------------------------------------------------------------------------
 
 <h2 align="center"> 🍁  Run Repl for Multi Session QR  🍁 </h2>
 
