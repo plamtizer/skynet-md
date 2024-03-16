@@ -89,6 +89,7 @@ npm start
 ```
 
 > ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+> 
 global.Owner = ["+254795363396"];
 global.OwnerNumber = ["254795363396"];
 global.ownertag = ["254795363396"];
