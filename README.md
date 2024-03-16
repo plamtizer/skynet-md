@@ -3,7 +3,10 @@
     <p align="center"> Introducing ❝skynet 𝐭𝐞𝐜𝐡❞, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
     <p align="center">
   <a href="https://github.com/Mwas284/skynet-mf">
-    <img alt="skynet docs" height="300" 
+    <img alt="skynet docs" height="300"
+      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=skynet-𝐀𝐈;WHATSAPP+BOT;CREATED+BY+skynet" alt="Typing SVG" /></a>
+  </p>
+  
 <h1 align="center">🔥 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝐭𝐨 𝐬𝐤𝐲𝐧𝐞𝐭_𝐦𝐝-𝐯𝟏🔥</h1>
 <br>
 <div align="center">
