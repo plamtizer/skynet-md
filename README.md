@@ -74,12 +74,16 @@
 <h2 align="center"> ⚙️  Edit Config File  ⚙️ </h2>
 
 # Instalasi
+
+## Deployment Methods
+
 ## Heroku Buildpack
 ```bash
 heroku/nodejs
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
+ ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FSuhailTechInfo%2FSuhail-)***
 ## For Termux
 ```ts
 termux-setup-storage
