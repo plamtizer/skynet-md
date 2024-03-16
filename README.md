@@ -81,7 +81,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Samue-l1/Classic-v3-BUG/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mwas284/skynet-md/)
 
 ## For Termux
 ```ts
