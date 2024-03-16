@@ -1,10 +1,10 @@
 /*
-› Create By zetsubo
-› Base Ori zetsubo
+› Create By mwas
+› Base Ori skynet
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : HW MODS WA & ZetsuboXygen */
+🌷 KALAU MAU RENAME TARO CREDITS GUA : HW MODS WA & skynetxgen */
 
-//   • [ Recode Bye > ZetsuboXygen777]
+//   • [ Recode Bye > skynet]
 /*   # AND↓
    THANKS TO >
   XygenGod777( Watashi / 私 )
