@@ -102,6 +102,12 @@ npm start
 
 > ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 > 
+>   ## ``Support Group``
+   
+
+- [` Group1`](https://chat.whatsapp.com/LNYsNPdpLy130W7bqMtXeW)
+- [`Group2`](https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk)
+
 global.Owner = ["+254795363396"];
 global.OwnerNumber = ["254795363396"];
 global.ownertag = ["254795363396"];
