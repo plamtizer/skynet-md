@@ -86,8 +86,11 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 Deploy
-    <br>
-<a href='https://github.com/Mwas284/skynet-md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=blue'/></a>
+ 
+<p align="center" >
+    <a href="https://heroku.com/deploy?template=https://github.com/Mwas284/skynet-md">
+    <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
+    </a>   
 
 ## For Termux
 ```ts
