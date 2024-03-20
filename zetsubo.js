@@ -774,8 +774,8 @@ await loading()
 ║═─═⊱ *「 Add Akses  」* ═─═⬣[⿻ 
 │
 ║┏⊱
-│𖤹 addprem (628xx/@tag)
-║𖤹 delprem (628xx/@tag)
+│𖤹 addprem (254xx/@tag)
+║𖤹 delprem (254xx/@tag)
 │𖤹 listprem
 ║𖤹 pengguna add (628xx)
 │𖤹 pengguna del (628xx)
@@ -838,8 +838,8 @@ await loading()
 ║═─═⊱ *「 Add Akses  」* ═─═⬣[⿻ 
 │
 ║┏⊱
-│𖤹 addprem (628xx/@tag)
-║𖤹 delprem (628xx/@tag)
+│𖤹 addprem (254xx/@tag)
+║𖤹 delprem (254xx/@tag)
 │𖤹 listprem
 ║𖤹 pengguna add (628xx)
 │𖤹 pengguna del (628xx)
