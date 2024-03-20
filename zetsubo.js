@@ -8276,26 +8276,64 @@ zetsubo.sendMessage(m.chat, { audio: { url: data.audio }, mimetype: 'audio/mp4' 
 }
 break
 //=================================================
-case 'igvideo': case 'igreels':
-			if (args.length == 0) return reply(`Example: ${prefix + command} https://www.instagram.com/tv/CXwPLSIFDW0/?igshid=NTc4MTIwNjQ2YQ==`)
-			await loading()
-			axios.get(`https://api.lolhuman.xyz/api/instagram?apikey=${apikey}&url=${args[0]}`).then(({ data }) => {
-				zetsubo.sendMessage(from, { video: { url: data.result }, mimetype: 'video/mp4', caption : `silahkan ketik tovn atau to audio untuk merubah nya menjadi audio / vn`})
-			})
-			break
-		case 'fbvideo':
-			if (args.length == 0) return reply(`Example: ${prefix + command} https://id-id.facebook.com/SamsungGulf/videos/video-bokeh/561108457758458/`)
-			await loading()
-			axios.get(`https://api.lolhuman.xyz/api/facebook?apikey=${apikey}&url=${args[0]}`).then(({ data }) => {
-				zetsubo.sendMessage(from, { video: { url: data.result }, mimetype: 'video/mp4', caption : `silahkan ketik tovn atau to audio untuk merubah nya menjadi audio / vn` })
-			})
-			break
-			
-			case 'twitvideo':
-			if (args.length == 0) return reply(`Example: ${prefix + command} https://twitter.com/gofoodindonesia/status/1229369819511709697`)
-			axios.get(`https://api.lolhuman.xyz/api/twitter?apikey=${apikey}&url=${args[0]}`).then(({ data }) => {
-				zetsubo.sendMessage(from, { video: { url: data.result.link[data.result.link.length - 1].link }, mimetype: 'video/mp4' })
-			})
+case 'play': {
+  if (!text) {
+    reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: 𝚙𝚕𝚊𝚢 𝚑𝚎𝚊𝚍𝚕𝚒𝚐𝚑𝚝𝚜 𝚋𝚢 𝚊𝚕𝚊𝚗 𝚠𝚊𝚕𝚔𝚎𝚛')
+    return;
+  }
+  try {
+    reply('𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐚𝐮𝐝𝐢𝐨...')
+    const { videos } = await yts(text);
+    if (!videos || videos.length <= 0) {
+      reply(`No Matching videos found for : *${args[0]}*!!`)
+      return;
+    }
+    let urlYt = videos[0].url
+    let infoYt = await ytdl.getInfo(urlYt);
+    //30 MIN
+    if (infoYt.videoDetails.lengthSeconds >= 1800) {
+      reply(`Too big!\I'm Unable to download big files. 🤥`);
+      return;
+    }
+    const getRandonm = (ext) => {
+      return `${Math.floor(Math.random() * 10000)}${ext}`;
+    };
+    let titleYt = infoYt.videoDetails.title;
+    let randomName = getRandonm(".mp3");
+    const stream = ytdl(urlYt, {
+      filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
+    })
+      .pipe(fs.createWriteStream(`./${randomName}`));
+    console.log("Audio downloading ->", urlYt);
+    // reply("Downloading.. This may take up to 5 min!");
+    await new Promise((resolve, reject) => {
+      stream.on("error", reject);
+      stream.on("finish", resolve);
+    });
+
+    let stats = fs.statSync(`./${randomName}`);
+    let fileSizeInBytes = stats.size;
+    // Convert the file size to megabytes (optional)
+    let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
+    console.log("Audio downloaded ! \n Size: " + fileSizeInMegabytes);
+    if (fileSizeInMegabytes <= 40) {
+      await zetsubo.sendMessage(
+        from, {
+          audio: fs.readFileSync(`./${randomName}`),
+          mimetype: "audio/mpeg",
+          caption: "𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 skynet 𝐁𝐎𝐓 ®2024"
+        }, {
+          quoted: m
+        }
+      );
+    } else {
+      reply(`File size bigger.`);
+    }
+    fs.unlinkSync(`./${randomName}`);
+  } catch (e) {
+    reply(e.toString())
+  }
+}
 			break
 //=================================================//
 case 'wm': {
