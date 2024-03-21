@@ -11189,3 +11189,68 @@ console.log(chalk.redBright(`Update ${__filename}`))
 delete require.cache[file]
 require(file)
 })
+//=================================================//
+case 'runtime':
+                let pinga = `skynet 𝐁𝐨𝐭 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
+                zetsubo.sendMessage(m.chat, {
+                    text: pinga,
+                    contextInfo: {
+                        externalAdReply: {
+                            showAdAttribution: true,
+                            title: botname,
+                            body: ownername,
+                            thumbnailUrl: 'zetszet/cheemspic.jpg',
+                            sourceUrl: 'https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk',
+                            mediaType: 1,
+                            renderLargerThumbnail: true
+                        }
+                    }
+                }, {
+                    quoted: m
+                })
+                break
+//=================================================//
+case "alive":
+
+const audiovn = "./skynet.mp3";
+    const dooc = {
+        audio: {
+          url: audiovn
+        },
+        mimetype: 'audio/mp4',
+        ptt: true,
+        waveform:  [100, 0, 100, 0, 100, 0, 100],
+        fileName: "",
+
+        contextInfo: {
+          mentionedJid: [m.sender],
+          externalAdReply: {
+          title: "𝐇𝐢 𝐇𝐮𝐦𝐚𝐧,skynet 𝐁𝐨𝐭 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 𝐚𝐧𝐝 𝐊𝐢𝐜𝐤𝐢𝐧𝐠",
+          body: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
+          thumbnailUrl: "https://telegra.ph/file/349877f57acf0e38db29f.mp4",
+          sourceUrl: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
+          mediaType: 1,
+          renderLargerThumbnail: true
+          }}
+      };
+
+
+await zetsubo.sendMessage(m.chat, dooc, {quoted: m});
+
+break;
+//=================================================//
+case 'ping': {
+  const startTime = new Date();
+  const pingMsg = await zetsubo.sendMessage(m.chat, { text: '*Classifying*' });
+
+ await zetsubo.relayMessage(m.chat, {
+      protocolMessage: {
+        key: pingMsg.key,
+        type: 14,
+        editedMessage: {
+          conversation: `*𝕮𝖑𝖆𝖘𝖘𝖎𝖋𝖎𝖊𝖉 ➟* *${new Date() - startTime}* 𝐌/𝐒`
+        }
+      }
+    }, {});
+  } 
+break;
