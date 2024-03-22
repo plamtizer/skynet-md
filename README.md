@@ -136,4 +136,6 @@ global.BotName = "𝐒𝐤𝐲𝐧𝐞𝐭𝐦𝐝";
 
 </div>
 </body>
- ⧉ 𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐓𝐇𝐄 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ⧉
+ ⧉ 𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐓𝐇𝐄 𝐒𝐔𝐏𝐏𝐎𝐑𝐓  ⧉
+
+<img src="https://cloud.githubusercontent.com/assets/17976841/20054455/a43d8358-a50f-11e6-90a6-c967a9d3a43f.png" width="60%"></img> 
