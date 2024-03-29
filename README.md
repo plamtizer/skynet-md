@@ -64,11 +64,7 @@
     <img src="https://repl.it/badge/github/quiec/whatsasena" />
   </a>
 
-    ## Screenshoot
-<img src="https://cloud.githubusercontent.com/assets/17976841/20054499/bc2d91ec-a50f-11e6-8a2a-eb9aa029e40b.png" width="32%"></img> 
-<img src="https://cloud.githubusercontent.com/assets/17976841/20054497/bc2affe0-a50f-11e6-99cb-81a1de0df249.png" width="32%"></img> 
-<img src="https://cloud.githubusercontent.com/assets/17976841/20054498/bc2b6f2a-a50f-11e6-9b7f-414f23508819.png" width="32%"></img>  
-
+ 
  ## Usage
  
 1. You will get qr code when you run the above replit. After scanning qr code you will get `creds.json` file in your personal chat, upload it to the `skynet-SESSION` folder in your project directory. And done! you can now deploy your bot:
@@ -138,4 +134,3 @@ global.BotName = "𝐒𝐤𝐲𝐧𝐞𝐭𝐦𝐝";
 </body>
  ⧉ 𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐓𝐇𝐄 𝐒𝐔𝐏𝐏𝐎𝐑𝐓  ⧉
 
-<img src="https://cloud.githubusercontent.com/assets/17976841/20054455/a43d8358-a50f-11e6-90a6-c967a9d3a43f.png" width="60%"></img> 
