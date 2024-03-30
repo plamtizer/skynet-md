@@ -13,7 +13,7 @@
 <img src="https://i.imgur.com/jx17oHT.gif">
 </div>
 <<p align="center">
-<img src="https://telegra.ph/file/466ea1a5fe088c82b4e99.jpg" width="600" height="700"/>
+<img src="https://telegra.ph/file/466ea1a5fe088c82b4e99.jpg" width="600" height="650"/>
 </p>
 <p align="center">
 </p>
