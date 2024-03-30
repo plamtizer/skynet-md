@@ -12,11 +12,10 @@
 <div align="center">
 <img src="https://i.imgur.com/jx17oHT.gif">
 </div>
-<br>
+<<p align="center">
+<img src="https://telegra.ph/file/466ea1a5fe088c82b4e99.jpg" width="600" height="700"/>
 </p>
-<div>
-<img src="https://telegra.ph/file/f9afb87c61e3ac02ee9d2.jpg" align="right">
-<div>
+<p align="center">
 </p>
 </p>
   <h1 align="center"> 𝐬𝐤𝐲𝐧𝐞𝐭 BoT (Beta)</h1>
