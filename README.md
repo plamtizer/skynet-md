@@ -10,7 +10,7 @@
 <h1 align="center">🔥 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝐭𝐨 𝐬𝐤𝐲𝐧𝐞𝐭_𝐦𝐝-𝐯𝟏🔥</h1>
 <br>
 <div align="center">
-<img src="https://pin.it/6WiHqbmvk">
+<img src="https://i.imgur.com/jx17oHT.gif">
 </div>
 <<p align="center">
 <img src="https://telegra.ph/file/466ea1a5fe088c82b4e99.jpg" width="600" height="700"/>
