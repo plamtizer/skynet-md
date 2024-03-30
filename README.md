@@ -66,7 +66,7 @@
  
  ## Usage
  
-1. You will get qr code when you run the above replit. After scanning qr code you will get `creds.json` file in your personal chat, upload it to the `skynet-SESSION` folder in your project directory. And done! you can now deploy your bot:
+1. You will get a session id when you run the above replit. After you finish entering your number you will get `creds.json` file in your personal chat, upload it to the `skynet-SESSION` folder in your project directory. And done! you can now deploy your bot:
 <h2 align="center"> ⚙️  Edit Config File  ⚙️ </h2>
 
 # Instalasi
