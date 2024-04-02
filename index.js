@@ -129,13 +129,13 @@ zetsubo.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: 
  ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 Terima Kasih Sudah Bergabung Jangan Lupa Baca Deskripsi Yah
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-Creator : https://wa.me/254102074064`})
+Creator : https://wa.me/254795363396`})
 } else if (anu.action == 'remove') {
 zetsubo.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Karena Untuk Setiap Ucapan Selamat Datang Akan Selalu Diakhiri Dengan Ucapan Selamat Tinggal 👋
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 Selamat Tinggal *@${num.split("@")[0]}* Di Group *${metadata.subject}*
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-Creator : https://wa.me/254102074064`})
+Creator : https://wa.me/254795363396`})
 } else if (anu.action == 'promote') {
 zetsubo.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Ciee Jadi Admin Di Group ${metadata.subject} ${metadata.desc}`  })
 } else if (anu.action == 'demote') {
@@ -353,7 +353,7 @@ console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
 connectToWhatsApp();
   }
 }else if (connection === "open") {
-  zetsubo.sendMessage('2547953633964' + "@s.whatsapp.net", { text: `✇⚚ 𝑺𝑲𝒀𝑵𝑬𝑻_𝑴𝑫𝑽1 ⚚✇ 𝐇𝐀𝐒 𝐁𝐄𝐄𝐍 𝐋𝐈𝐍𝐊𝐄𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐀𝐂𝐂𝐎𝐔𝐍𝐓\n\n 𝐂𝐎𝐔𝐑𝐓𝐄𝐒𝐘 𝐎𝐅 𝑴𝑾𝑨𝑺 𝑴𝑶𝑫𝒁 \n\n #𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘 𝐂𝐑𝐀𝐒𝐇\n #𝐔𝐍𝐋𝐈𝐃𝐄𝐋𝐀𝐘\n #𝐒𝐏𝐀𝐌 𝐁𝐋𝐎𝐂𝐊\n #𝐔𝐋𝐓𝐈𝐌𝐀𝐓𝐄 𝐁𝐔𝐆𝐒\n #𝐀𝐋𝐋 𝐈𝐍 𝐎𝐍𝐄\n\n ⛥𝐒𝐇𝐎𝐖 𝐓𝐇𝐄𝐌 𝐍𝐎 𝐌𝐄𝐑𝐂𝐘⛥` });
+  zetsubo.sendMessage('254795363396' + "@s.whatsapp.net", { text: `✇⚚ 𝑺𝑲𝒀𝑵𝑬𝑻_𝑴𝑫𝑽1 ⚚✇ 𝐇𝐀𝐒 𝐁𝐄𝐄𝐍 𝐋𝐈𝐍𝐊𝐄𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐀𝐂𝐂𝐎𝐔𝐍𝐓\n\n 𝐂𝐎𝐔𝐑𝐓𝐄𝐒𝐘 𝐎𝐅 𝑴𝑾𝑨𝑺 𝑴𝑶𝑫𝒁 \n\n #𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘 𝐂𝐑𝐀𝐒𝐇\n #𝐔𝐍𝐋𝐈𝐃𝐄𝐋𝐀𝐘\n #𝐒𝐏𝐀𝐌 𝐁𝐋𝐎𝐂𝐊\n #𝐔𝐋𝐓𝐈𝐌𝐀𝐓𝐄 𝐁𝐔𝐆𝐒\n #𝐀𝐋𝐋 𝐈𝐍 𝐎𝐍𝐄\n\n ⛥𝐒𝐇𝐎𝐖 𝐓𝐇𝐄𝐌 𝐍𝐎 𝐌𝐄𝐑𝐂𝐘⛥` });
 }
 // console.log('Connected...', update)
 });
