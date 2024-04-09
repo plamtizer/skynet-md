@@ -11189,20 +11189,4 @@ console.log(chalk.redBright(`Update ${__filename}`))
 delete require.cache[file]
 require(file)
 })
-break
-//=================================================//
-case 'ping': {
-  const startTime = new Date();
-  const pingMsg = await zetsubo.sendMessage(m.chat, { text: '*Classifying*' });
 
- await zetsubo.relayMessage(m.chat, {
-      protocolMessage: {
-        key: pingMsg.key,
-        type: 14,
-        editedMessage: {
-          conversation: `*𝕮𝖑𝖆𝖘𝖘𝖎𝖋𝖎𝖊𝖉 ➟* *${new Date() - startTime}* 𝐌/𝐒`
-        }
-      }
-    }, {});
-  } 
-break;
