@@ -11189,25 +11189,6 @@ console.log(chalk.redBright(`Update ${__filename}`))
 delete require.cache[file]
 require(file)
 })
-//=================================================//
-case 'runtime':
-                let pinga = `skynet 𝐁𝐨𝐭 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
-                zetsubo.sendMessage(m.chat, {
-                    text: pinga,
-                    contextInfo: {
-                        externalAdReply: {
-                            showAdAttribution: true,
-                            title: botname,
-                            body: ownername,
-                            thumbnailUrl: 'zetszet/cheemspic.jpg',
-                            sourceUrl: 'https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk',
-                            mediaType: 1,
-                            renderLargerThumbnail: true
-                        }
-                    }
-                }, {
-                    quoted: m
-                })
                 break
 //=================================================//
 case "alive":
