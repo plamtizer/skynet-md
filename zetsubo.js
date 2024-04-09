@@ -11189,36 +11189,7 @@ console.log(chalk.redBright(`Update ${__filename}`))
 delete require.cache[file]
 require(file)
 })
-                break
-//=================================================//
-case "alive":
-
-const audiovn = "./skynet.mp3";
-    const dooc = {
-        audio: {
-          url: audiovn
-        },
-        mimetype: 'audio/mp4',
-        ptt: true,
-        waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "",
-
-        contextInfo: {
-          mentionedJid: [m.sender],
-          externalAdReply: {
-          title: "𝐇𝐢 𝐇𝐮𝐦𝐚𝐧,skynet 𝐁𝐨𝐭 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 𝐚𝐧𝐝 𝐊𝐢𝐜𝐤𝐢𝐧𝐠",
-          body: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
-          thumbnailUrl: "https://telegra.ph/file/349877f57acf0e38db29f.mp4",
-          sourceUrl: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
-          mediaType: 1,
-          renderLargerThumbnail: true
-          }}
-      };
-
-
-await zetsubo.sendMessage(m.chat, dooc, {quoted: m});
-
-break;
+break
 //=================================================//
 case 'ping': {
   const startTime = new Date();
