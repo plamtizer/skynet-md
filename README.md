@@ -18,7 +18,7 @@
 <p align="center">
 </p>
 </p>
-  <h1 align="center"> dar BoT (Beta)</h1>
+  <h1 align="center"> DARK BUG BOT (Beta)</h1>
 
 <p align="center"> 
   Hi there, I'm "skynet_md-v1," a versatile WhatsApp bot created and reprogrammed by mwas to perform a wide array of functions based on WhatsApp Multi-Device (MD) Support.
