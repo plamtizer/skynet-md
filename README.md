@@ -63,6 +63,8 @@
     <img src="https://repl.it/badge/github/quiec/whatsasena" />
   </a>
 
+  #OR
+  
  2,   ***[`TAP HERE TO SCAN PAIRING CODE`](https://vision-pairing.onrender.com)***
  ## Usage
  
