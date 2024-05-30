@@ -59,7 +59,7 @@
 <h2 align="center"> 🍁  Run Repl for Multi Session QR  🍁 </h2>
 
 <h2 align="center">
-  <a href="https://replit.com/@BrianMwangi9/Pairing-skynet-v2?v=1#index.js">
+  <a href="https://replit.com/@BrianMwangi9/skynet-Pairing">
     <img src="https://repl.it/badge/github/quiec/whatsasena" />
   </a>
 
