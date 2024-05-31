@@ -65,7 +65,7 @@
 
   #OR
   
- 2,   ***[`TAP HERE TO SCAN PAIRING CODE`](https://vision-pairing.onrender.com)***
+ 2,   ***[`TAP HERE TO SCAN PAIRING CODE`]()***
  ## Usage
  
 1. You will get a session id when you run the above replit. After you finish entering your number you will get `creds.json` file in your personal chat, upload it to the `skynet-SESSION` folder in your project directory. And done! you can now deploy your bot:
