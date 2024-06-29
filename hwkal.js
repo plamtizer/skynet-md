@@ -18,35 +18,21 @@ Base Haikal Hw Mods : Copyan Dari Base Dika
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.gr = 'https://chat.whatsapp.com/KD5RUV38F5NGI89uXmj0L6'
-global.ig = 'Mwas' // ubah aja
-global.email = 'mwas@gmail.com' //serah
+global.gr = 'https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk'
+global.ig = 'ano_nymous_sam' // ubah aja
+global.email = 'samuelcircute@gmail.com' //serah
 global.region = 'kenya' // serah
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = '⸙𝐌𝐰𝐚𝐬⸙' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = 'ꪶ༺֎ᚏ༈࿉𝐀𝐍𝐎𝐍𝐘𝐌𝐎𝐔𝐒⧉ᚙ֎⸙༻' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
-global.owner = ['254795363396'] // ubah aja pake nomor lu
+global.owner = ['254742491666'] // ubah aja pake nomor lu
 //==========================zetsuboclient=======================//
-global.botname = '✇⚚ 𝑺𝑲𝒀𝑵𝑬𝑻_𝑴𝑫𝑽1 ⚚✇' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.packname = '✇⚚ 𝑺𝑲𝒀𝑵𝑬𝑻_𝑴𝑫𝑽1 ⚚✇' // ubah aja ini nama sticker
-global.author = '⸙𝐌𝐰𝐚𝐬⸙' // ubah aja ini nama sticker
+global.botname = '⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.packname = '⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺' // ubah aja ini nama sticker
+global.author = '༻࿇𝐊𝐈𝐍𝐆_𝐒𝐀𝐌❖༺' // ubah aja ini nama sticker
 global.prefa = ['','!','.',',','🐤','🗿']
-global.sessionName = 'Skynet' //Gausah Juga
+global.sessionName = 'classicsession'  //Gausah Juga
 global.sp = '⭔' // Gausah Juga
+global.autoviewstatus = process.env.autoviewstatus || "TRUE"
 global.wlcm = []
 global.wlcmm = []
-global.anticall = true
-//=================================================//
-//Gausah Juga
-global.limitawal = {
-    premium: "Infinity",
-    free: 5
-}
-//=================================================//
-let file = require.resolve(__filename)
-fs.watchFile(file, () => {
-	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete require.cache[file]
-	require(file)
-})
