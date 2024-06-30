@@ -1,7 +1,28 @@
 {
-	"name": "𝐒𝐊𝐘𝐍𝐄𝐓-𝐌𝐃-𝐁𝐎𝐓",
-	"description": "WhatsApp Bot Using Lib Baileys",
-	"repository": "https://github.com/Mwas284/skynet-md",
-	"logo": "https://node-js-sample.herokuapp.com/node.png",
-	"keywords": ["multi-device"]
-}
+  "name": "𝐒𝐊𝐘𝐍𝐄𝐓-𝐌𝐃-𝐁𝐎𝐓",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/Mwas284/skynet-md",
+  "logo": "https://telegra.ph/file/ee26c929aee9656d6e7ce.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"]
+"env": {
+      "autoviewstatus": {
+        "description": "Put TRUE,if you want the bot to view status ",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Heroku account api key, https://dashboard.heroku.com/account",
+        "required": false
+      }
+    },
+  "buildpacks": [
+              {
+                "url": "heroku/nodejs"
+              },
+              {
+                "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+              },
+              {
+                "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+              }
+            ]
+          }   
